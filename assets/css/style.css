@@ -54,7 +54,7 @@ a {
 
 p {
     font-size: 20px;
-
+    margin-top: 50px;
 }
 
 #about-me {
@@ -75,7 +75,13 @@ p {
     border-top: none;
     border-bottom: none ;
     border-left: none;
-    padding: 25px;
+    padding: 31px;
+}
+
+#work {
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 
@@ -84,7 +90,128 @@ p {
     font-size: 45px;
     position: relative;
     margin-top: 40px;
-    padding: 29px;
+    padding: 40px;
+    border: 2px solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.work-container {
+    display: flex;
+}
+
+.work-container a {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.work-info {
+    padding: 80px;
+}
+
+.run-buddy {
+    width: 707px;
+    margin-top: 50px;
+    position: relative;
+    border: 5px solid lightblue;
+}
+
+.run-buddy-heading {
+    position: absolute;
+    left: 347px;
+    bottom: -59px;
+    border: 3px solid lightblue;
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.coming-soon {
+    width: 345px;
+    margin-top: -25px;
+    position: relative;
+    border: 5px solid lightblue;
+}
+
+.coming-soon-heading {
+    position: absolute;
+    left: 347px;
+    bottom: -274px;
+    border: 3px solid lightblue;
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.anchor {
+    position: relative;
+    left: 362px;
+    bottom: 207px;
+}
+
+.soon-coming {
+    width: 345px;
+    margin-top: -25px;
+    border: 5px solid lightblue;
+}
+
+.soon-coming-heading {
+    position: absolute;
+    right: 385px;
+    bottom: -276px;
+    border: 3px solid lightblue;
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.work-anchor {
+    position: relative;
+    top: -56px;
+}
+
+.soon-to-come {
+    width: 345px;
+    margin-top: -166px;
+    border: 5px solid lightblue;
+}
+
+.soon-to-come-heading {
+    position: absolute;
+    left: 347px;
+    bottom: -476px;
+    border: 3px solid lightblue;
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+    
+}
+
+.coming-soon-anchor {
+    position: relative;
+    top: -56px;
+}
+
+.soon {
+    width: 345px;
+    margin-top: -166px;
+    border: 5px solid lightblue;
+    position: absolute;
+    right: -685px;
+    bottom: 75px;
+}
+
+.soon-heading {
+    position: absolute;
+    right: 379px;
+    bottom: -474px;
+    border: 3px solid lightblue;
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
 }
 
 
@@ -96,7 +223,7 @@ p {
     border-top: none;
     border-bottom: none;
     border-left: none;
-    padding: 10px;
+    padding: 22px;
 
 }
 
@@ -108,6 +235,8 @@ p {
 .my-contact-info ul {
     padding: 20px;
     margin: 21px;
+    position: relative;
+    left: 126px;
 }
 
 .my-contact-info ul li {
@@ -117,5 +246,7 @@ p {
     font-size: 20px;
     padding: 25px;
 }
+
+
 
 
