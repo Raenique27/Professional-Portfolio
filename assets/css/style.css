@@ -54,43 +54,68 @@ a {
 
 p {
     font-size: 20px;
+
 }
 
-.my-info img {
+#about-me {
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+
+.about-me img {
     width: 15%;
-}
-
-.about-me {
-
-
 }
 
 .about-me h2 {
     color: rgb(1, 32, 57);
     font-size: 45px;
+    border: 2px solid;
+    border-top: none;
+    border-bottom: none ;
+    border-left: none;
+    padding: 25px;
 }
 
-.work {
-
-}
 
 .work h2 {
     color: rgb(1, 32, 57);
     font-size: 45px;
+    position: relative;
+    margin-top: 40px;
+    padding: 29px;
 }
 
-.contact {
-    
-    
-}
 
 .contact-me h2 {
     color: rgb(1, 32, 57);
     font-size: 45px;
+    font-style: normal;
+    border: 2px solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px;
 
 }
 
-.contact-me address {
+.my-contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.my-contact-info ul {
+    padding: 20px;
+    margin: 21px;
+}
+
+.my-contact-info ul li {
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style: none;  
     font-size: 20px;
-    
+    padding: 25px;
 }
+
+
