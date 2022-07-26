@@ -114,6 +114,10 @@ p {
     padding: 80px;
 }
 
+.position{
+    position: relative;
+}
+
 .run-buddy {
     width: 707px;
     margin-top: 50px;
@@ -123,12 +127,11 @@ p {
 
 .run-buddy-heading {
     position: absolute;
-    left: 347px;
-    bottom: -59px;
+    left: 30px;
+    bottom: 46px;
     border: 3px solid lightblue;
     padding: 15px;
     background-color: lightblue;
-    display: flex;
 }
 
 .coming-soon {
@@ -140,12 +143,11 @@ p {
 
 .coming-soon-heading {
     position: absolute;
-    left: 347px;
-    bottom: -274px;
+    left: 25px;
+    top: 100px;
     border: 3px solid lightblue;
     padding: 15px;
     background-color: lightblue;
-    display: flex;
 }
 
 .anchor {
@@ -162,12 +164,11 @@ p {
 
 .soon-coming-heading {
     position: absolute;
-    right: 385px;
-    bottom: -276px;
+    right: 30px;
+    top: -107px;
     border: 3px solid lightblue;
     padding: 15px;
     background-color: lightblue;
-    display: flex;
 }
 
 .work-anchor {
@@ -183,12 +184,11 @@ p {
 
 .soon-to-come-heading {
     position: absolute;
-    left: 347px;
-    bottom: -476px;
+    left: 23px;
+    top: -103px;
     border: 3px solid lightblue;
     padding: 15px;
     background-color: lightblue;
-    display: flex;
     
 }
 
@@ -208,8 +208,8 @@ p {
 
 .soon-heading {
     position: absolute;
-    right: 379px;
-    bottom: -474px;
+    right: 26px;
+    bottom: 154px;
     border: 3px solid lightblue;
     padding: 15px;
     background-color: lightblue;
@@ -255,19 +255,84 @@ p {
 /* Media Query for Small desktop screens and smaller */
 
 @media screen and (max-width: 980px) {
-    
+header {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p{
+    font-size: 27px;
+}
+
+.about-me img{
+    width: 25%;
+}
+
+#work {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-me h2{
+    padding: 20px;
+    
+}
+
+.my-contact-info{
+    flex-direction: column;
+}
+
+.my-contact-info ul {
+    left: 21px;
+}
 }
 
 /* Media Query for Tablets and Smaller */
 
 @media screen and (max-width: 768px) {
+.about-me img {
+    width: 43%;
+}
+
+.position{
+    left: -19px;
+}
+
+.my-contact-info ul {
+    left: -10px;
+}
 
 }
 
 /* Media Query for Mobile Phones and Smaller */
 
 @media screen and (max-width: 575px) {
-    
+p {
+    font-size: 31px;
+    text-align: center;
+}
+
+.about-me img {
+    width: 64%;
+}
+
+.work-info {
+    position: relative;
+    right: -65px;
+}
+
 }
 
