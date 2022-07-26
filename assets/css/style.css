@@ -78,6 +78,8 @@ p {
     padding: 31px;
 }
 
+/* Project section starts here */
+
 #work {
     display: flex;
     align-items: center;
@@ -213,7 +215,9 @@ p {
     background-color: lightblue;
     display: flex;
 }
+/* Project section ends here */
 
+/* Contact me section starts here */
 
 .contact-me h2 {
     color: rgb(1, 32, 57);
@@ -246,7 +250,24 @@ p {
     font-size: 20px;
     padding: 25px;
 }
+/* Contact me section ends here */
 
+/* Media Query for Small desktop screens and smaller */
 
+@media screen and (max-width: 980px) {
+    
 
+}
+
+/* Media Query for Tablets and Smaller */
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* Media Query for Mobile Phones and Smaller */
+
+@media screen and (max-width: 575px) {
+    
+}
 
